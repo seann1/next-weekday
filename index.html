@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>This Day Next Week</title>
+  </head>
+  <body>
+      <div class="container">
+        <div class="professional">
+        <h1>Enter A Day</h1>
+
+        <form id="next-weekday">
+          <div class="form-group">
+            <label for="next-weekday">Enter the day of the week you're looking forward to</label>
+            <input id="next-weekday" type="text">
+          </div>
+
+        <button type="submit" class="btn">Get Date</button>
+      </form>
+        </div>
+      <div id="result">
+        <p>next <span id="inputDay"></span> will be: <span id="month">
+        </span><span id="day"></span><span id="year"></span></p>
+
+      </div>
+    </div>
+  </body>
+</html>
